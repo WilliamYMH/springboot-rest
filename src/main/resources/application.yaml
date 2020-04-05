@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/reservation
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+      generate-ddl: true
+    show-sql: true 
+  security:
+    user:
+     name: william
+     password: wil543  
+server:  port: 8090
+    
